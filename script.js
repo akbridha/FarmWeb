@@ -151,16 +151,18 @@ textSectionSatu.addEventListener('click', function(e){
 
 const navbarItem = document.querySelector('.nav__links');
 
-navbarItem.addEventListener('click', function(e){
-  e.preventDefault();
-  console.log(`Ini adalah container dari link di navBar`);
-  if(e.target.classList.contains('nav__link')){
-    const linkHref = e.target.getAttribute('href');
-    alert(linkHref);
-  }
-  // console.log(e);
 
-});
+//matikan untuk langusng ke link
+// navbarItem.addEventListener('click', function(e){
+//   e.preventDefault();
+//   console.log(`Ini adalah container dari link di navBar`);
+//   if(e.target.classList.contains('nav__link')){
+//     const linkHref = e.target.getAttribute('href');
+//     alert(linkHref);
+//   }
+//   // console.log(e);
+
+// });
 // navbarItem.addEventListener('click', function(e){
 //   e.preventDefault();
 //   console.log('item clicked', e);
